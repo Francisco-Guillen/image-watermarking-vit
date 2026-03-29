@@ -17,7 +17,7 @@ Download the model checkpoint [here](https://drive.google.com/file/d/1Ip3uNTVOkl
 python inference.py \
   --config models/VQ4_mir_inference_vit.yaml \
   --weight models/<checkpoint>.ckpt \
-  --secret "mysecret" \
+  --secret "secrets" \
   --cover examples/image.png \
   --output stego.png
 ```
