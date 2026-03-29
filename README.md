@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 ## Checkpoint
 
-Download the model checkpoint [here](https://drive.google.com/file/d/1Ip3uNTVOklpUw51A1XVK6QJK7H6vl5Oy/view?usp=sharing) and place it at models/
+Download the model checkpoint [here](https://drive.google.com/file/d/1Ip3uNTVOklpUw51A1XVK6QJK7H6vl5Oy/view?usp=sharing) and place it at models/.
 ## Inference
 ```bash
 python inference.py \
