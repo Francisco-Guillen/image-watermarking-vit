@@ -11,6 +11,10 @@ RoSteALS+ViT replaces the ResNet-50 decoder of [RoSteALS](https://github.com/TuB
 pip install -r requirements.txt
 ```
 
+## Checkpoint
+
+Download the model checkpoint from [Google Drive](https://drive.google.com/file/d/1Ip3uNTVOklpUw51A1XVK6QJK7H6vl5Oy/view?usp=sharing) and place it at `models/`.
+
 ## Inference
 ```bash
 python inference.py \
