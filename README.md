@@ -38,7 +38,7 @@ The script embeds the secret into the cover image and saves the watermarked resu
 
 ## Results
 
-Bit accuracy on the CLIC dataset compared to the original RoSteALS.
+Bit accuracy on 100 randomly sampled images from the CLIC dataset, compared to the original RoSteALS.
 
 | Attack Category | RoSteALS | RoSteALS+ViT |
 |---|---|---|
