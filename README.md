@@ -77,7 +77,7 @@ Bit accuracy on the CLIC dataset compared to the original RoSteALS.
 
 ## Acknowledgements
 
-This work builds upon [RoSteALS](https://github.com/TuBui/RoSteALS) by Bui et al., licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). The inference script is adapted from their original implementation.
+This work builds upon RoSteALS by Bui et al., licensed under CC BY-NC 4.0.
 
 ## Citation
 
