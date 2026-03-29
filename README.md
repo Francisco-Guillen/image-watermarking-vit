@@ -29,7 +29,7 @@ python inference.py \
 | `--config` | `models/VQ4_mir_inference_vit.yaml` | Path to config file |
 | `--weight` | `models/epoch=000034-step=001750000.ckpt` | Path to checkpoint file |
 | `--secret` | `secrets` | Secret message (7 characters max) |
-| `--cover` | `examples/934.jpg` | Path to cover image |
+| `--cover` | `examples/image.png` | Path to cover image |
 | `--output` | `stego.png` | Path to output stego image |
 | `--image_size` | `256` | Image resolution |
 
