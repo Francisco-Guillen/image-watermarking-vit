@@ -1,7 +1,5 @@
 # RoSteALS+ViT
 
-This repository contains the trained model from the paper **"Benchmarking Image Watermarking Robustness and Improving RoSteALS with a Vision Transformer Decoder"** (Francisco Guillén, João Neves — Universidade da Beira Interior).
-
 RoSteALS+ViT replaces the ResNet-50 decoder of [RoSteALS](https://github.com/TuBui/RoSteALS) with a Vision Transformer, improving robustness against blur, compression, noise, rescaling, and masking.
 
 ---
