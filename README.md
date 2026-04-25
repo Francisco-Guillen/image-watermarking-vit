@@ -1,5 +1,17 @@
 # RoSteALS+ViT
 
+Mexeste no modelo e agora queres voltar a empacotar o modelo?
+torch-model-archiver --model-name autoencoder --version 1.0 --handler handler.py
+--serialized-file model.ckpt --extra-files
+"cldmAe.py,cldmDiffsteg.py,cldmLoss.py,cldmTransformations.py,cldmUtils.py,Embed_Secre
+t.py,ldmModelsAutoencoder.py,ldmModelsDiffusionDdim.py,ldmModelsDiffusionDdpm.py,ldm
+ModulesAttention.py,ldmModulesDiffusionmodulesModel.py,ldmModulesDiffusionmodulesOp
+enaimodel.py,ldmModulesDiffusionmodulesUtil.py,ldmModulesDistributionsDistributions.py,ld
+mModulesEma.py,ldmUtil.py,toolsAugment_imagenetc.py,toolsEcc.py,toolsHelpers.py,VQ4_
+mir_inference.yaml,__init__.py,secret.py,toolsEval_metrics.py,toolsSifid.py,convert_base64_i
+nto_image.py,convert_image_into_Base64.py,Extract_Secret.py,epoch=000017-step=00044
+9999.ckpt" --export-path model_store --force
+
 RoSteALS+ViT replaces the ResNet-50 decoder of [RoSteALS](https://github.com/TuBui/RoSteALS) with a Vision Transformer, improving robustness against blur, compression, noise, rescaling, and masking.
 
 ---
